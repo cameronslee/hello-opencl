@@ -1,0 +1,14 @@
+Steps for program
+
+1) Obtain OpenCL platform
+2) Obtain device id for at least one device (accelerator)
+3) Create context for device
+4) create accelerator program from source code 
+5) build program 
+6) create kernel(s) from program functions
+7) create command queue for target device
+8) allocate device memory / move input data to device memory
+9) associate args to kernel with kernel obj
+10) deploy kernel for device execution
+11) move output data to host memory
+12) release context/program/kernels/memory
